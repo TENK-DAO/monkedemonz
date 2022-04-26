@@ -35,6 +35,7 @@
 .banner a:first-child {
   border-right-color: var(--bg);
   left: var(--spacing-m);
+  top: 50%;
 }
 .banner a:first-child:after {
   border-right-color: var(--secondary);
@@ -48,6 +49,7 @@
 .banner a:last-child {
   border-left-color: var(--bg);
   right: var(--spacing-m);
+  top: 50%;
 }
 .banner a:last-child:after {
   border-left-color: var(--secondary);
