@@ -1,0 +1,17 @@
+{
+  "author": "@MonkeGodzNFT",
+  "siteUrl": "https://tenk-dao.github.io/monkedemonz",
+  "contractName": "md.tenk.testnet",
+  "social": [
+    {
+      "href": "https://discord.gg/DrkatBA5ud",
+      "img":  "discord.svg",
+      "alt": "Discord"
+    },
+    {
+      "href": "https://twitter.com/MonkeGodzNFT",
+      "img":  "twitter.svg",
+      "alt": "Twitter"
+    }
+  ]
+}

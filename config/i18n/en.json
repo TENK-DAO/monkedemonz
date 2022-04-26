@@ -1,0 +1,56 @@
+{
+  "viewIn": "View in English",
+  "langPicker": "English",
+  "title": "MonkeDemonz",
+  "description": "666 programmatically generated Monke Demons launching on NEAR. Powered by the DeityDAO that paves the way for an expansion of projects. Earn monthly royalties by holding onto MonkeDemonz!",
+  "calendarEvent": "Go Mint a MonkeDemon!",
+  "connectWallet": "Connect Wallet",
+  "signOut": "Sign Out",
+  "myNFTs": "My NFTs",
+  "nextNFT": "Next NFT",
+  "prevNFT": "Previous NFT",
+  "close": "Close",
+  "zoomIn": "Zoom In",
+  "zoomOut": "Zoom Out",
+  "hero": {
+    "title": "join the demonz",
+    "body": "666 programmatically generated Monke Demons launching on NEAR. Powered by the DeityDAO that paves the way for an expansion of projects. Earn monthly royalties by holding onto MonkeDemonz!",
+    "ps": "MonkeDemonz drop at PRESALE_START!",
+    "cta": "Add to Calendar",
+    "action": "ADD_TO_CALENDAR(PRESALE_START)",
+    "saleClosed": {
+      "signedIn": {
+        "ps": "Minting starts at: PRESALE_START\n\nGet in on it! [Join our Discord](https://discord.gg/DrkatBA5ud) and request an invite."
+      },
+      "vip": {
+        "ps": "Welcome, CURRENT_USER! Minting starts at PRESALE_START",
+        "action": "ADD_TO_CALENDAR(PRESALE_START)"
+      }
+    },
+    "presale": {
+      "ps": "REMAINING_COUNT remain. Get in on it:",
+      "cta": "Join our Discord",
+      "action": "JOIN_DISCORD",
+      "vip": {
+        "ps": "REMAINING_COUNT remain. It's getting hot in here.",
+        "cta": "Mint for MINT_PRICE",
+        "action": "MINT"
+      }
+    },
+    "saleOpen": {
+      "ps": "REMAINING_COUNT remain. It's getting hot in here.",
+      "cta": "Mint for MINT_PRICE",
+      "action": "MINT",
+      "signedOut": {
+        "action": "SIGN_IN"
+      }
+    },
+    "allSold": {
+      "title": "All INITIAL_COUNT minted!",
+      "body": "The MonkeDemonz have all been created",
+      "ps": "",
+      "cta": "Buy Pre-Owned",
+      "action": "GO_TO_PARAS"
+    }
+  }
+}
