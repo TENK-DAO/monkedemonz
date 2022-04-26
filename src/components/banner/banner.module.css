@@ -1,9 +1,15 @@
 .banner {
   align-items: center;
   background-color: var(--secondary);
+  color: var(--bg);
   text-align: center;
   padding: var(--spacing-m);
   position: relative;
+}
+
+.banner code {
+  color: var(--bg);
+  padding: 0;
 }
 
 .banner a,
@@ -27,7 +33,7 @@
   border-left-width: 0;
 }
 .banner a:first-child {
-  border-right-color: var(--fg);
+  border-right-color: var(--bg);
   left: var(--spacing-m);
 }
 .banner a:first-child:after {
@@ -40,7 +46,7 @@
   border-right-width: 0;
 }
 .banner a:last-child {
-  border-left-color: var(--fg);
+  border-left-color: var(--bg);
   right: var(--spacing-m);
 }
 .banner a:last-child:after {
