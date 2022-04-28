@@ -91,7 +91,7 @@ const actions = {
   }),
   'SIGN_IN': signIn,
   'MINT': (d: Data) => TenK.nft_mint_many({ num: d.numberToMint ?? 1 }, {
-    gas: Gas.parse('20 Tgas').mul(Gas.from('' + d.numberToMint)),
+    gas: Gas.parse('40 Tgas').mul(Gas.from('' + d.numberToMint)),
     attachedDeposit: NEAR.from(d.saleInfo.price).mul(NEAR.from('' + d.numberToMint)),
   }),
   'JOIN_DISCORD': () => window.open('https://discord.gg/DrkatBA5ud'),
